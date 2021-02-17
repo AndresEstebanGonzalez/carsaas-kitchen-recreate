@@ -1,0 +1,18 @@
+.googlemaps {
+  width: 100vw;
+  height: 100vh;
+  iframe {
+    width: 100vw;
+    height: 100vh;
+    border: 0 none;
+    z-index: -1;
+    position: absolute;
+  }
+  .googlemaps--container {
+    display: flex;
+    width: 35rem;
+    height: 100vh;
+    float: right;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+}
