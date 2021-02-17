@@ -1,0 +1,39 @@
+.main {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh - 8vh;
+  background-image: url("../assets/sebastien-marchand-oVIUvwm2dvM-unsplash.jpg");
+  background-size: cover;
+  background-position-y: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .main--container {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main--container-hero h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 72px;
+    color: #dddddd;
+    font-weight: 400;
+    text-align: center;
+    strong {
+      color: #6ab04c;
+      font-weight: 700;
+    }
+  }
+  .main--container-hero p {
+    margin: 0;
+    padding: 0 0 0 360px;
+    font-size: 24px;
+    color: white;
+    font-family: "Dancing script";
+    text-align: right;
+  }
+}

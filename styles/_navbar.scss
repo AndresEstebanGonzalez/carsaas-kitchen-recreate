@@ -1,6 +1,6 @@
 .navbar {
-  position: fixed;
   width: 100vw;
+  margin-top: 0;
 }
 .navbar--container {
   height: 8vh;
@@ -25,9 +25,11 @@
     }
   }
   .right-sector {
+    .navbar-list {
+      line-height: 8vh;
+    }
     .navbar-list ul {
       display: flex;
-      justify-content: flex-start;
     }
     .navbar-list li {
       margin: 0 1.5rem;
