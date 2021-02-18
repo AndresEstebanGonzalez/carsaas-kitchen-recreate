@@ -1,18 +1,55 @@
 .googlemaps {
   width: 100vw;
   height: 100vh;
+  padding: 0 1rem 0 0;
   iframe {
     width: 100vw;
     height: 100vh;
     border: 0 none;
+    padding: 0 1rem 0 0;
     z-index: -1;
     position: absolute;
   }
   .googlemaps--container {
     display: flex;
-    width: 35rem;
+    justify-content: flex-end;
+  }
+  .googlemaps--container-right-sector {
+    width: 34rem;
     height: 100vh;
-    float: right;
+    padding: 1rem 1rem 1rem 2rem;
     background-color: rgba(0, 0, 0, 0.8);
+  }
+  .right--sector-text {
+    margin-top: 4rem;
+    text-align: right;
+  }
+  .right--sector-text h3 {
+    color: #dddddd;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: right;
+    strong {
+      color: #6ab04c;
+      font-weight: 700;
+    }
+  }
+  .right--sector-text p {
+    margin-top: 2rem;
+    color: white;
+    font-size: 16px;
+    text-align: right;
+    line-height: 2.6rem;
+    letter-spacing: 1px;
+    font-weight: 300;
+  }
+  .googlemaps--link-div {
+    margin-top: 3rem;
+  }
+  #googlemaps--link {
+    font-size: 20px;
+    color: #6ab04c;
+    text-decoration: none;
+    font-weight: 700;
   }
 }
