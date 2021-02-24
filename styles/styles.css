@@ -17,7 +17,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: #000000ea;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .navbar--container .left-sector {
@@ -34,7 +34,7 @@
 
 .navbar--container .left-sector h3 {
   margin: 1rem 2rem;
-  color: #dddddd;
+  color: #ddd;
   font-size: 24px;
   font-weight: 500;
 }
@@ -60,7 +60,7 @@
 }
 
 .navbar--container .right-sector .navbar-list a {
-  color: white;
+  color: #fff;
   text-decoration: none;
   font-size: 16px;
   font-weight: 400;
@@ -103,7 +103,7 @@
   margin: 0;
   padding: 0;
   font-size: 72px;
-  color: #dddddd;
+  color: #ddd;
   font-weight: 400;
   text-align: center;
 }
@@ -117,7 +117,7 @@
   margin: 0;
   padding: 0 0 0 360px;
   font-size: 24px;
-  color: white;
+  color: #fff;
   font-family: "Dancing script";
   text-align: right;
 }
@@ -147,7 +147,7 @@
   width: 34rem;
   height: 100vh;
   padding: 1rem 1rem 1rem 2rem;
-  background: #000000cc;
+  background: rgba(0, 0, 0, 0.8);
 }
 
 .googlemaps .googlemaps--container .right--sector-text {
@@ -156,7 +156,7 @@
 }
 
 .googlemaps .googlemaps--container .right--sector-text h3 {
-  color: #dddddd;
+  color: #ddd;
   font-size: 24px;
   font-weight: 400;
   text-align: right;
@@ -169,7 +169,7 @@
 
 .googlemaps .googlemaps--container .right--sector-text p {
   margin-top: 2rem;
-  color: white;
+  color: #fff;
   font-size: 16px;
   text-align: right;
   line-height: 2.6rem;
