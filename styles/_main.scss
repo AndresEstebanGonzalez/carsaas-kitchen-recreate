@@ -1,3 +1,5 @@
+@import "./colors";
+
 .main {
   margin: 0;
   padding: 0;
@@ -20,11 +22,11 @@
     margin: 0;
     padding: 0;
     font-size: 72px;
-    color: #dddddd;
+    color: $white-grey;
     font-weight: 400;
     text-align: center;
     strong {
-      color: #6ab04c;
+      color: $green;
       font-weight: 700;
     }
   }
@@ -32,7 +34,7 @@
     margin: 0;
     padding: 0 0 0 360px;
     font-size: 24px;
-    color: white;
+    color: $white;
     font-family: "Dancing script";
     text-align: right;
   }
