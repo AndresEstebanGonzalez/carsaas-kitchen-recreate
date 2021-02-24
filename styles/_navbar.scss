@@ -9,7 +9,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: rgba($color-black, 0.9);
+  background-color: $black-transparent;
 
   .left-sector {
     display: flex;
@@ -18,11 +18,11 @@
   }
   .left-sector h3 {
     margin: 1rem 2rem;
-    color: $color-white-grey;
+    color: $white-grey;
     font-size: 24px;
     font-weight: 500;
     strong {
-      color: $color-green;
+      color: $green;
       font-weight: 700;
     }
   }
@@ -38,7 +38,7 @@
       list-style: none;
     }
     .navbar-list a {
-      color: $color-white;
+      color: $white;
       text-decoration: none;
       font-size: 16px;
       font-weight: 400;

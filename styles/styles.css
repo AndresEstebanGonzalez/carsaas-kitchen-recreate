@@ -17,7 +17,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba #000, 0.9;
 }
 
 .navbar--container .left-sector {
@@ -147,7 +147,7 @@
   width: 34rem;
   height: 100vh;
   padding: 1rem 1rem 1rem 2rem;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba #000, 0.8;
 }
 
 .googlemaps .googlemaps--container .right--sector-text {

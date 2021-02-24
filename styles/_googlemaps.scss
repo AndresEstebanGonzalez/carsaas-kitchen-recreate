@@ -21,24 +21,24 @@
       width: 34rem;
       height: 100vh;
       padding: 1rem 1rem 1rem 2rem;
-      background: rgba($color-black, 0.8);
+      background: $black-transparent-light;
     }
     .right--sector-text {
       margin-top: 4rem;
       text-align: right;
       h3 {
-        color: $color-white-grey;
+        color: $white-grey;
         font-size: 24px;
         font-weight: 400;
         text-align: right;
         strong {
-          color: $color-green;
+          color: $green;
           font-weight: 700;
         }
       }
       p {
         margin-top: 2rem;
-        color: $color-white;
+        color: $white;
         font-size: 16px;
         text-align: right;
         line-height: 2.6rem;
@@ -52,7 +52,7 @@
     }
     #googlemaps--link {
       font-size: 20px;
-      color: $color-green;
+      color: $green;
       text-decoration: none;
       font-weight: 700;
     }
