@@ -1,19 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Roboto", sans-serif;
-  overflow-x: hidden;
-}
-
 .navbar {
   width: 100vw;
   margin-top: 0;
@@ -31,7 +17,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: #000000;
+  background-color: #000000ea;
 }
 
 .navbar--container .left-sector {
@@ -145,7 +131,7 @@ body {
 .googlemaps iframe {
   width: 100vw;
   height: 100vh;
-  border: 0 none;
+  border: none;
   padding-right: 1rem;
   position: absolute;
   z-index: -1;
@@ -161,7 +147,7 @@ body {
   width: 34rem;
   height: 100vh;
   padding: 1rem 1rem 1rem 2rem;
-  background-color: rgba(0, 0, 0, 0.8);
+  background: #000000cc;
 }
 
 .googlemaps .googlemaps--container .right--sector-text {
@@ -200,5 +186,19 @@ body {
   color: #6ab04c;
   text-decoration: none;
   font-weight: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
 /*# sourceMappingURL=styles.css.map */
