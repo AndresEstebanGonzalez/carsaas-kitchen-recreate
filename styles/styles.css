@@ -1,7 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -141,52 +139,49 @@ body {
 .googlemaps {
   width: 100vw;
   height: 100vh;
-  padding: 0 1rem 0 0;
+  padding-right: 1rem;
 }
 
 .googlemaps iframe {
   width: 100vw;
   height: 100vh;
   border: 0 none;
-  padding: 0 1rem 0 0;
-  z-index: -1;
+  padding-right: 1rem;
   position: absolute;
+  z-index: -1;
 }
 
 .googlemaps .googlemaps--container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  width: 34rem;
+  height: 100vh;
+  float: right;
 }
 
-.googlemaps .googlemaps--container-right-sector {
+.googlemaps .googlemaps--container .googlemaps--container-right-sector {
   width: 34rem;
   height: 100vh;
   padding: 1rem 1rem 1rem 2rem;
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-.googlemaps .right--sector-text {
+.googlemaps .googlemaps--container .right--sector-text {
   margin-top: 4rem;
   text-align: right;
 }
 
-.googlemaps .right--sector-text h3 {
+.googlemaps .googlemaps--container .right--sector-text h3 {
   color: #dddddd;
   font-size: 24px;
   font-weight: 400;
   text-align: right;
 }
 
-.googlemaps .right--sector-text h3 strong {
+.googlemaps .googlemaps--container .right--sector-text h3 strong {
   color: #6ab04c;
   font-weight: 700;
 }
 
-.googlemaps .right--sector-text p {
+.googlemaps .googlemaps--container .right--sector-text p {
   margin-top: 2rem;
   color: white;
   font-size: 16px;
@@ -196,11 +191,11 @@ body {
   font-weight: 300;
 }
 
-.googlemaps .googlemaps--link-div {
+.googlemaps .googlemaps--container .googlemaps--link-div {
   margin-top: 3rem;
 }
 
-.googlemaps #googlemaps--link {
+.googlemaps .googlemaps--container #googlemaps--link {
   font-size: 20px;
   color: #6ab04c;
   text-decoration: none;
